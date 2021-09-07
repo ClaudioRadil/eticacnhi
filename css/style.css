@@ -1,0 +1,246 @@
+*{
+	font-family: 'Domine', serif;
+}
+
+body{
+	background: #fff;
+}
+p{
+	margin: 0 0 15px;
+	padding: 0 15px;
+	text-align: justify;
+}
+
+hr{
+	border:1px solid #ccc;
+	height: 1px;
+	border-bottom: none;
+}
+
+h1{
+	background:url('../img/logo.png') no-repeat;
+	height: 70px;
+	margin-top: 7px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.b{
+	font-weight: bold;
+}
+.i{
+	font-style: italic;
+}
+
+h2{
+	color: #9a323a;
+	font-weight: bold;
+	padding: 10px 15px 0;
+}
+h3{
+	font-size: 24px;
+	position: absolute;
+	background: #eaeaea;
+	top: -10px;
+	left: -55px;
+	width: 500px;
+	height: 39px;
+}
+.form-control{
+	box-shadow: none;
+	border: 4px solid #c8c8c9;
+	border-radius: 0;
+	/*transition: none;*/
+}
+.shadow{
+	text-align: center;
+	border-bottom: 1px dashed #ccc;
+	padding: 0 0 15px 0;
+	-webkit-box-shadow: 0 8px 20px -6px #aaa;
+	-moz-box-shadow: 0 8px 20px -6px #aaa;
+	box-shadow: 0 8px 34px -8px #bbb;
+	height: 50px;
+}
+.mb25{
+	margin-bottom: 15px;
+}
+.mb45{
+	margin-bottom: 0;
+}
+.mb70{
+	margin-bottom: 30px;
+}
+.clear{
+	clear: both;
+}
+.header .col-1 { 
+	height: 80px;
+}
+.header .col-2 {
+	height: 80px;
+	padding-top: 30px;
+	text-align: right;
+}
+	.header .col-2 a {
+		display: inline-block;
+		height: 16px;
+		overflow: hidden;
+		text-indent: 9999px;
+		width: 24px;
+	}
+		.flag-brasil {
+			background-image:url('../img/flag-brasil.png');
+		}
+		.flag-espanha {
+			background-image:url('../img/flag-espanha.png');
+		}
+.conteudo {
+
+}
+	.conteudo .row {
+		position: relative;
+	}
+	.footer {
+		background:url('../img/logo-small.png') no-repeat 20px 0;
+		margin-top: 15px;
+	}
+		.footer p {
+			background-color: #d7d7d7;
+			color: #727272;
+			line-height: 25px;
+			margin: 5px 0 0 73px;
+			padding: 0 10px;
+		}
+		.footer a {
+			text-decoration: none;
+		}
+	.sidebar {
+		background-color: #9e2f35;
+		padding: 0;
+	}
+		.nav {
+
+		}
+			.nav li {
+				border-bottom: solid 1px #bd645c;
+				padding: 0;
+			}
+				.nav > li > a {
+					color: #efefef;
+					display: block;
+					font-size: 14px;
+					padding: 10px 30px;
+				}
+					.nav > li > a:hover, .nav > li > a:focus {
+						background-color: #8E292F;
+					}
+					.nav > li > a:hover, .nav > li > a:focus {
+						background-color: rgba(142, 41, 47, 0.7);
+					}
+					.nav a.ativo {
+						background-image: url(../img/seta-marcador.png);
+						background-repeat: no-repeat;
+						background-position: 15px center;
+					}
+	.btn-danger{
+		background-color: #fff;
+		border: solid 4px #9e0039;
+		border-radius: 0;
+		color: #231f20;
+		display: inline-block;
+	}
+	a.btn-danger {
+		margin-left: 15px;
+	}
+	.btn-danger:hover{
+		background: #932b33;
+	}
+	.inputCidade, .inputIdentificacao{
+		display: none;
+	}
+	.conduta{
+		font-weight: 700;
+		font-size: 20px;
+		margin:0;
+	}
+	.conduta a{
+		color: #9a323a;
+		font-size: 18px;
+	}
+	.conduta a i{
+		font-family: fontawesome;
+		padding: 20px 10px 20px 0px;
+		font-size: 30px;
+	}
+@media screen and (min-width: 768px) {
+	.header .col-1 {
+		background-image:url('../img/bck.jpg');
+		background-repeat: no-repeat;
+		background-position: right top;
+		border-bottom: solid 1px #e9e8e7;
+		height: 120px;
+	}
+		h1 {
+			margin-top: 20px;
+		}
+	.header .col-2 {
+		background-image:url('../img/bck.header-col-2.jpg');
+		background-repeat: no-repeat;
+		background-position: right top;
+		border-bottom: solid 1px #bd645c;
+		height: 120px;
+		padding-top: 50px;
+		position: fixed;
+		right: 0;
+	}
+	.sidebar {
+		background-color: #9e2f35;
+		background-image:url('../img/bck.sidebar.jpg');
+		background-repeat: no-repeat;
+		background-position: 0 bottom;
+		height: 100%;
+		padding: 0;
+		position: fixed;
+		right: 0;
+	}
+		.nav li a {
+			padding: 20px 60px;
+		}
+			.nav a.ativo {
+				background-position: 40px center;
+			}
+}
+@media screen and (min-width: 990px) {
+	.header .col-1 {
+		background-position: right -120px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.container-fluid {
+		max-width: 1440px;
+	}
+	.header .col-1 {
+		background-position: right -240px;
+	}
+	h1{
+		margin-left: 70px;
+	}
+	h2{
+		padding: 0 70px 0;
+	}
+	p{
+		padding: 0 70px;
+	}
+	.formulario #form1 {
+		padding: 0 55px;
+	}
+	.sidebar {
+		max-width: 360px;
+	}
+	a.btn-danger{
+		margin-left: 70px;
+	}
+	.footer {
+		background-position: 85px 5px;
+		padding-left: 70px;
+	}
+}
